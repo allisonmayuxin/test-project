@@ -1,0 +1,405 @@
+body {
+  background-color: white;
+}
+
+h1 {
+text-align: center;
+font-size: 30px;
+color: #111; font-family: 'Helvetica Neue', sans-serif;
+font-size: 100px; font-weight: bold; letter-spacing: -1px;
+line-height: 1px; text-align: center;
+}
+
+h2 { color: #111; font-family: 'Open Sans', sans-serif;
+font-size: 30px; font-weight: 300; line-height: 32px;
+margin: 0 0 20px; text-align: center; }
+.tagline {
+  text-align: center;
+}
+
+h3 { color: #111; font-family: 'Open Sans', sans-serif;
+  font-size: 14px; font-weight: 300; line-height: 18px;
+  margin: 0; text-align: left; }
+
+h4 {
+  text-align: left;
+  color: #111; font-family: 'Helvetica Neue', sans-serif;
+  font-size: 25px; font-weight: bold; letter-spacing: -1px;
+  line-height: 1px; text-align: left;
+  }
+
+
+p { color: #685206; font-family: 'Helvetica Neue', sans-serif;
+font-size: 14px; line-height: 24px; margin: 0 0 24px;
+text-align: justify; text-justify: inter-word; }
+
+#header {
+position: absolute;
+  left: 250px;
+  top: 50px;
+  z-index: 999;
+}
+
+#img {
+position: absolute;
+width: 96%;
+top: 0px;
+  align-items: center;
+  z-index: -999;
+}
+
+
+#navbar {
+  position: absolute;
+  width: 98%
+  height: auto;
+  top: 310px;
+}
+#navbar li{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 0;
+  font-family:"Helvetica Neue";
+  font-size: 14px;
+}
+
+#navbar li a:hover{
+background-color: #87CEFA;
+}
+
+#navbar li a{
+  display: block;
+  width: 220px;
+  text-align: center;
+  background-color: #B0C4DE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#articles {
+  position:absolute;
+  top: 370px;
+}
+
+#navbar3 {
+  position: absolute;
+  top: 1920px;
+  right: 65px;
+}
+
+#socialmed {
+  position: absolute;
+  top: 2000px;
+  right: 800px;
+}
+
+#socialmed1 {
+  position: absolute;
+  top: 2000px;
+  right: 700px;
+}
+
+#socialmed2 {
+  position: absolute;
+  top: 2000px;
+  right: 610px;
+}
+
+#socialmed3 {
+  position: absolute;
+  top: 1990px;
+  right: 290px;
+}
+
+#socialmed4 {
+  position: absolute;
+  top: 2000px;
+  right: 300px;
+}
+
+
+#rectangle {
+  position: absolute;
+  top: 1880px;
+  width: 96%;
+	height: 20px;
+	background: #B0C4DE;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #D3D3D3;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    padding: 20px;
+    width: 90%;
+    height: 1430px;
+}
+
+.verticalLine {
+  border-left: thin solid black;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  width: 1px;
+  height: 1465px;
+}
+
+#aaron1 {
+  position: absolute;
+  top: 1600px;
+  left: 570px;
+}
+
+#aaron2 {
+  position: absolute;
+  top: 1620px;
+  left: 850px;
+}
+
+#aaronimg {
+  position: absolute;
+  top: 1670px;
+  left: 580px;
+}
+
+#trim1 {
+  position: absolute;
+  top: 1590px;
+  left: 20px;
+}
+
+#trim2 {
+  position: absolute;
+  top: 1620px;
+  left: 270px;
+}
+
+#trim3 {
+  position: absolute;
+  top: 1618px;
+  left: 20px;
+}
+#trimimg {
+  position: absolute;
+  top: 1680px;
+  left: 25px;
+}
+
+#halloween1 {
+  position: absolute;
+  top: 1365px;
+  left: 570px;
+}
+
+#halloween2 {
+  position: absolute;
+  top: 1420px;
+  left: 850px;
+}
+
+#halloweenimg {
+  position: absolute;
+  top: 1430px;
+  left: 580px;
+}
+
+#stitt1 {
+  position: absolute;
+  top: 1365px;
+  left: 20px;
+}
+
+#stitt2 {
+  position: absolute;
+  top: 1430px;
+  left: 270px;
+}
+
+#stittimg {
+  position: absolute;
+  top: 1430px;
+  left: 25px;
+}
+
+#music1 {
+  position: absolute;
+  top: 1145px;
+  left: 570px;
+}
+
+#music2 {
+  position: absolute;
+  top: 1210px;
+  left: 850px;
+}
+
+#musicimg {
+  position: absolute;
+  top: 1200px;
+  left: 580px;
+}
+
+#spring1 {
+  position: absolute;
+  top: 1145px;
+  left: 20px;
+}
+
+#spring2 {
+  position: absolute;
+  top: 1200px;
+  left: 270px;
+}
+
+#springimg {
+  position: absolute;
+  top: 1200px;
+  left: 25px;
+}
+
+#disney1 {
+  position: absolute;
+  top: 890px;
+  left: 570px;
+}
+
+#disney2 {
+  position: absolute;
+  top: 980px;
+  left: 850px;
+}
+
+#disney3 {
+  position: absolute;
+  top: 920px;
+  left: 570px;
+}
+
+#disneyimg {
+  position: absolute;
+  top: 980px;
+  left: 580px;
+}
+
+
+#dorm1 {
+  position: absolute;
+  top: 885px;
+  left: 20px;
+}
+
+#dorm2 {
+  position: absolute;
+  top: 970px;
+  left: 270px;
+}
+
+#dorm3 {
+  position: absolute;
+  top: 915px;
+  left: 20px;
+}
+
+#dormimg {
+  position: absolute;
+  top: 980px;
+  left: 25px;
+}
+
+#show1 {
+  position: absolute;
+  top: 640px;
+  left: 570px;
+}
+
+#show2 {
+  position: absolute;
+  top: 720px;
+  left: 850px;
+}
+
+#show3 {
+  position: absolute;
+  top: 665px;
+  left: 570px;
+}
+
+#showimg {
+  position: absolute;
+  top: 720px;
+  left: 580px;
+}
+
+
+#tomb1 {
+  position: absolute;
+  top: 640px;
+  left: 20px;
+}
+
+#tomb2 {
+  position: absolute;
+  top: 665px;
+  left: 20px;
+}
+
+#tomb3 {
+  position: absolute;
+  top: 720px;
+  left: 280px;
+}
+
+#tombing {
+  position: absolute;
+  top: 725px;
+  left: 25px;
+}
+
+
+#eleven1 {
+  position: absolute;
+  top: 380px;
+  left: 570px;
+}
+
+#eleven2 {
+  position: absolute;
+  top: 480px;
+  left: 850px;
+}
+
+#eleven3 {
+  position: absolute;
+  top: 410px;
+  left: 570px;
+}
+
+#elevening {
+  position: absolute;
+  top: 480px;
+  left: 580px;
+}
+
+
+#smog1 {
+  position: absolute;
+  top: 380px;
+  left: 20px;
+}
+
+#smog2 {
+  position: absolute;
+  top: 455px;
+  left: 280px;
+}
+
+
+#smoging {
+  position: absolute;
+  top: 450px;
+  left: 25px;
+}
